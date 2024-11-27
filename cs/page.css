@@ -1,0 +1,414 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.omne {
+    position: relative;
+    background-color: rgb(248, 248, 248);
+    scroll-margin-top: 50px;
+    width: 100%;
+    height: 35em;
+    float:right;
+    
+}
+
+.omnetitlestrip {
+    position: relative;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    width: 100%;
+    height: 0.1vh;
+    float: initial;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.omnetitle {
+    position: relative;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    top: 3vh;
+}
+
+.omnetextblock {
+    position: relative;
+    top: 100px;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.omnetext {
+    position: relative;
+    font-size: 120%;
+    color: black;
+    white-space: initial;
+    
+    z-index: 1;
+    
+}
+
+
+
+.omneimg {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 140px;
+    width: 40%;
+
+}
+
+/* preklady */
+
+.preklady {
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    float:right;
+    height: calc(500px - 10vw);
+    scroll-margin-top: 50px;
+}
+
+.prekladytitlestrip {
+    position: relative;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    width: 100%;
+    height: 0.1vh;
+    float: initial;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prekladytitle {
+    position: relative;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    top: 3vh;
+}
+
+.prekladytextblock {
+    position: relative;
+    top: 100px;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prekladytext {
+    position: relative;
+    font-size: 120%;
+    color: black;
+    white-space: initial;
+    z-index: 1;
+    
+}
+
+br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 24%;
+  }
+
+
+  /* tlumoceni */
+  .tlumoceni {
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    float:right;
+    height: calc(1000px - 28vw);
+    scroll-margin-top: 50px;
+}
+
+.tlumocenititlestrip {
+    position: relative;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    width: 100%;
+    height: 0.1vh;
+    float: initial;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.tlumocenititle {
+    position: relative;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    top: 3vh;
+}
+
+.tlumocenitextblock {
+    position: relative;
+    top: 100px;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tlumocenitext {
+    position: relative;
+    font-size: 120%;
+    color: black;
+    white-space: initial;
+    z-index: 1;
+    
+}
+
+/* podminky */
+.podminky {
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    float:right;
+    height: calc(800px - 22vw);
+    scroll-margin-top: 50px;
+}
+
+.podminkytitlestrip {
+    position: relative;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    width: 100%;
+    height: 0.1vh;
+    float: initial;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.podminkytitle {
+    position: relative;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    top: 3vh;
+}
+
+.podminkytextblock {
+    position: relative;
+    top: 100px;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.podminkytext {
+    position: relative;
+    font-size: 120%;
+    color: black;
+    white-space: initial;
+    z-index: 1;
+
+    
+}
+
+
+/* reference */
+.reference {
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    float:right;
+    height: calc(1200px - 22vw);
+    scroll-margin-top: 50px;
+}
+
+.referencetitlestrip {
+    position: relative;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    width: 100%;
+    height: 0.1vh;
+    float: initial;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.referencetitle {
+    position: relative;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    top: 3vh;
+}
+
+.lefttextph {
+    visibility: hidden;
+}
+
+.referencetextblock {
+    position: relative;
+    top: 100px;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.referencetext {
+    position: relative;
+    font-size: 120%;
+    color: black;
+    white-space: initial;
+    z-index: 1;
+    
+}
+
+/* kontakty */
+.kontakty {
+    position: relative;
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    float:right;
+    height: 200px;
+}
+
+.kontaktystrip {
+    position: relative;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    width: 100%;
+    height: 0.1vh;
+    float: initial;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.kontaktytitle {
+    position: relative;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    top: 1.5vh;
+}
+
+.kontaktyaddyblock {
+    position: relative;
+    top: 60px;
+    width: 70%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.address {
+    position: relative;
+    font-size: 100%;
+    color: black;
+    white-space: initial;
+    z-index: 1;
+    
+}
+
+.kontaktybr {
+    content: "";
+    margin: 0.5em;
+    display: block;
+    font-size: 24%;
+}
+
+.kontaktytelblock {
+    position: relative;
+
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tel {
+    position: static;
+    font-size: 100%;
+    color: black;
+    white-space: initial;
+    z-index: 1;
+    
+}
+
+.kontaktymailblock {
+    position: relative;
+    width: 70%;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    top: -25px;
+}
+
+.mail {
+    position: relative;
+    font-size: 100%;
+    color: black;
+    white-space: initial;
+    z-index: 1;
+    
+}
+
+
+/* scroll */
+#omne {
+    margin-top: 0%;
+    padding-bottom: 25%;
+   } 
+
+.zdroj {
+    position: relative;
+    width: 50%;
+
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    top: 695px;
+}
+
+.zdrojtext {
+    position: relative;
+    font-size: 100%;
+    color: black;
+    white-space: initial;
+    z-index: 1;
+}
+
+span {
+    color: blue;
+}
+
+.denikcz {
+    position: absolute;
+    top: 150px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50vw;
+  height: calc(600px - 2vw);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 1920px) {
+    .preklady {
+        height:300px;
+    }
+    .tlumoceni {
+        height:450px;
+    }
+    .podminky {
+        height: 370px;
+    }
+    .reference{
+        height: 800px;
+    }
+}
