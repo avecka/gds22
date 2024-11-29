@@ -35,79 +35,55 @@ html, body {
 
 .lefttext {
     position: relative;
-    left: 32.5vw;
+    
+    height: 1000px;
     top: -32vh;
-    font-size: 35px;
+    padding-left: 33vw;
     color: black;
-    white-space: initial;
-    width: 61.5vmax;
+    width: 95vmax;
     z-index: 1;
+    align-items: right;
+    
+
 }
 
 .landingtext {
     color: black;
     font-weight: bold;
+    font-size: 3.5vh;
+
     
 }
 
-@media screen and (max-width: 1670px) {
+@media screen and (max-width: 170vh) {
+    
     .lefttext {
         position: relative;
-        left: 35.5vw;
-    }
-}
-
-@media screen and (max-width: 1495px) {
-    .lefttext {
-        position: relative;
-        left: 40vw;
-    }
-}
-
-@media screen and (max-width: 1355px) {
-    .lefttext {
-        position: relative;
-        left: 45vw;
-        width: 50vmax;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .lefttext {
-        position: relative;
-        left: 49vw;
-        width: 50vmax;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .lefttext {
-        position: relative;
-        left: 53vw;
-        width: 45vmax;
-        font-size: 30px;
+        
+        height: 1000px;
         top: -32vh;
+        padding-left: 63vh;
+        color: black;
+        width: 95vmax;
+        z-index: 1;
+        align-items: right;
+        
+    
+    }
+    .buttonrdr{
+        position: relative;
+        padding-left: -50px;
     }
 }
 
-@media screen and (max-width: 1020px) {
-    .lefttext {
-        position: relative;
-        left: 57vw;
-        width: 40vmax;
-        font-size: 30px;
-        top: -32vh;
-    }
-}
+
 
 /* phone */
 @media screen and (max-width: 960px) {
-    .lefttext {
+    
+    .buttonrdr{
         position: relative;
-        left: 60vw;
-        width: 35vmax;
-        font-size: 30px;
-        top: -34vh;
+        left: -100px;
     }
 
     .nav{
@@ -162,6 +138,7 @@ html, body {
 
 .language {
     position: relative;
+    font-size: calc(.5em + 0.5vw);
     left: 30px;
 }
 

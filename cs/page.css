@@ -7,7 +7,7 @@ html {
     background-color: rgb(248, 248, 248);
     scroll-margin-top: 50px;
     width: 100%;
-    height: 35em;
+    height: 40em;
     float:right;
     
 }
@@ -21,19 +21,20 @@ html {
     float: initial;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
 }
 
 .omnetitle {
     position: relative;
+    top: 2vh;
     color: black;
-    font-size: 35px;
     font-weight: bold;
-    top: 3vh;
+    font-size: calc(1.3rem + 0.5vh + 0.5vw);
 }
 
 .omnetextblock {
     position: relative;
-    top: 100px;
+    top: calc(2.5em + 2.5vw);
     width: 60%;
     text-align: center;
     margin-left: auto;
@@ -42,7 +43,7 @@ html {
 
 .omnetext {
     position: relative;
-    font-size: 120%;
+    font-size: calc(0.4rem + 0.5vh + 0.5vw);
     color: black;
     white-space: initial;
     
@@ -57,8 +58,8 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    top: 140px;
-    width: 40%;
+    top: calc(5em + 5vw);
+    width: calc(13rem + 20vh + 20vw);
 
 }
 
@@ -69,7 +70,8 @@ html {
     background-color: rgb(247, 247, 247);
     width: 100%;
     float:right;
-    height: calc(500px - 10vw);
+    height: calc(4rem + 6vh + 6vw);
+    min-height: fit-content;
     scroll-margin-top: 50px;
 }
 
@@ -87,23 +89,25 @@ html {
 .prekladytitle {
     position: relative;
     color: black;
-    font-size: 35px;
+    font-size: calc(1.3rem + 0.5vh + 0.5vw);
     font-weight: bold;
     top: 3vh;
 }
 
 .prekladytextblock {
     position: relative;
-    top: 100px;
+    padding-top: calc(2rem + 3vh + 3vw);;
     width: 60%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    height: calc(5rem + 9vh + 9vw + 10%);
+    min-height: fit-content;
 }
 
 .prekladytext {
     position: relative;
-    font-size: 120%;
+    font-size: calc(0.4rem + 0.5vh + 0.5vw);
     color: black;
     white-space: initial;
     z-index: 1;
@@ -124,7 +128,8 @@ br {
     background-color: rgb(247, 247, 247);
     width: 100%;
     float:right;
-    height: calc(1000px - 28vw);
+    height: calc(4rem + 6vh + 6vw);
+    min-height: fit-content;
     scroll-margin-top: 50px;
 }
 
@@ -143,23 +148,25 @@ br {
 .tlumocenititle {
     position: relative;
     color: black;
-    font-size: 35px;
+    font-size: calc(1.3rem + 0.5vh + 0.5vw);
     font-weight: bold;
     top: 3vh;
 }
 
 .tlumocenitextblock {
     position: relative;
-    top: 100px;
+    padding-top: calc(2rem + 3vh + 3vw);;
     width: 60%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    height: calc(10rem + 15vh + 15vw + 10%);
+    min-height: fit-content;
 }
 
 .tlumocenitext {
     position: relative;
-    font-size: 120%;
+    font-size: calc(0.4rem + 0.5vh + 0.5vw);
     color: black;
     white-space: initial;
     z-index: 1;
@@ -172,7 +179,8 @@ br {
     background-color: rgb(247, 247, 247);
     width: 100%;
     float:right;
-    height: calc(800px - 22vw);
+    height: calc(4rem + 6vh + 6vw);
+    min-height: fit-content;
     scroll-margin-top: 50px;
 }
 
@@ -190,23 +198,25 @@ br {
 .podminkytitle {
     position: relative;
     color: black;
-    font-size: 35px;
+    font-size: calc(1.3rem + 0.5vh + 0.5vw);
     font-weight: bold;
     top: 3vh;
 }
 
 .podminkytextblock {
     position: relative;
-    top: 100px;
+    padding-top: calc(2rem + 3vh + 3vw);;
     width: 60%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    height: calc(8rem + 13vh + 13vw + 10%);
+    min-height: fit-content;
 }
 
 .podminkytext {
     position: relative;
-    font-size: 120%;
+    font-size: calc(0.4rem + 0.5vh + 0.5vw);
     color: black;
     white-space: initial;
     z-index: 1;
@@ -221,7 +231,8 @@ br {
     background-color: rgb(247, 247, 247);
     width: 100%;
     float:right;
-    height: calc(1200px - 22vw);
+    height: calc(4rem + 6vh + 6vw);
+    min-height: fit-content;
     scroll-margin-top: 50px;
 }
 
@@ -240,7 +251,7 @@ br {
 .referencetitle {
     position: relative;
     color: black;
-    font-size: 35px;
+    font-size: calc(1.3rem + 0.5vh + 0.5vw);
     font-weight: bold;
     top: 3vh;
 }
@@ -251,16 +262,17 @@ br {
 
 .referencetextblock {
     position: relative;
-    top: 100px;
+    padding-top: calc(2rem + 3vh + 3vw);
     width: 60%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    height: 40%;
 }
 
 .referencetext {
     position: relative;
-    font-size: 120%;
+    font-size: calc(0.4rem + 0.5vh + 0.5vw);
     color: black;
     white-space: initial;
     z-index: 1;
@@ -274,6 +286,8 @@ br {
     width: 100%;
     float:right;
     height: 200px;
+    height: calc(4rem + 6vh + 6vw);
+    min-height: fit-content;
 }
 
 .kontaktystrip {
@@ -291,14 +305,14 @@ br {
 .kontaktytitle {
     position: relative;
     color: black;
-    font-size: 25px;
+    font-size: calc(1em + 1vw);
     font-weight: bold;
     top: 1.5vh;
 }
 
 .kontaktyaddyblock {
     position: relative;
-    top: 60px;
+    padding-top: calc(1rem + 2vh + 2vw);;
     width: 70%;
     text-align: left;
     margin-left: auto;
@@ -307,7 +321,7 @@ br {
 
 .address {
     position: relative;
-    font-size: 100%;
+    font-size: calc(0.4rem + 0.5vh + 0.5vw);
     color: black;
     white-space: initial;
     z-index: 1;
@@ -323,7 +337,7 @@ br {
 
 .kontaktytelblock {
     position: relative;
-
+    top: -30%;
     width: 70%;
     text-align: center;
     margin-left: auto;
@@ -332,7 +346,7 @@ br {
 
 .tel {
     position: static;
-    font-size: 100%;
+    font-size: calc(0.4rem + 0.5vh + 0.5vw);
     color: black;
     white-space: initial;
     z-index: 1;
@@ -345,12 +359,12 @@ br {
     text-align: right;
     margin-left: auto;
     margin-right: auto;
-    top: -25px;
+    top: -44%;
 }
 
 .mail {
     position: relative;
-    font-size: 100%;
+    font-size: calc(0.4rem + 0.5vh + 0.5vw);
     color: black;
     white-space: initial;
     z-index: 1;
@@ -371,7 +385,7 @@ br {
     text-align: right;
     margin-left: auto;
     margin-right: auto;
-    top: 695px;
+    top: calc(1rem + 2vh + 2vw);
 }
 
 .zdrojtext {
@@ -380,35 +394,37 @@ br {
     color: black;
     white-space: initial;
     z-index: 1;
+    left: 10%;
+    top: calc(-2rem + -6vh + -6vw);
 }
 
 span {
     color: blue;
 }
 
+.denik{
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    float:right;
+    height: calc(10rem + 23vh + 23vw);
+    min-height: fit-content;
+    scroll-margin-top: 50px;
+}
+
 .denikcz {
-    position: absolute;
-    top: 150px;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 50vw;
-  height: calc(600px - 2vw);
+    position: relative;
+    
+    min-height: fit-content;
+    
+    left: 20%;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+
+    height: calc(10rem + 15vh + 15vw + 10%);
+    min-height: fit-content;;
     margin-left: auto;
     margin-right: auto;
 }
 
-@media screen and (min-width: 1920px) {
-    .preklady {
-        height:300px;
-    }
-    .tlumoceni {
-        height:450px;
-    }
-    .podminky {
-        height: 370px;
-    }
-    .reference{
-        height: 800px;
-    }
-}
