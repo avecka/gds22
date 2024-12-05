@@ -73,6 +73,8 @@ html {
     height: calc(4rem + 6vh + 6vw);
     min-height: fit-content;
     scroll-margin-top: 50px;
+    height: -moz-fit-content;
+    height: -webkit-fit-content;
 }
 
 .prekladytitlestrip {
@@ -131,6 +133,8 @@ br {
     height: calc(4rem + 6vh + 6vw);
     min-height: fit-content;
     scroll-margin-top: 50px;
+    height: -moz-fit-content;
+    height: -webkit-fit-content;
 }
 
 .tlumocenititlestrip {
@@ -182,6 +186,8 @@ br {
     height: calc(4rem + 6vh + 6vw);
     min-height: fit-content;
     scroll-margin-top: 50px;
+    height: -moz-fit-content;
+    height: -webkit-fit-content;
 }
 
 .podminkytitlestrip {
@@ -234,6 +240,8 @@ br {
     height: calc(4rem + 6vh + 6vw);
     min-height: fit-content;
     scroll-margin-top: 50px;
+    height: -moz-fit-content;
+    height: -webkit-fit-content;
 }
 
 .referencetitlestrip {
@@ -288,6 +296,8 @@ br {
     height: 200px;
     height: calc(4rem + 6vh + 6vw);
     min-height: fit-content;
+    height: -moz-fit-content;
+    height: -webkit-fit-content;
 }
 
 .kontaktystrip {
@@ -410,6 +420,8 @@ span {
     height: calc(10rem + 23vh + 23vw);
     min-height: fit-content;
     scroll-margin-top: 50px;
+    height: -moz-fit-content;
+    height: -webkit-fit-content;
 }
 
 .denikcz {
