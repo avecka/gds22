@@ -294,11 +294,11 @@ br {
     background-color: rgb(252, 252, 252);
     width: 100%;
     float:right;
-    height: 200px;
-    height: calc(4rem + 6vh + 6vw);
+    height: calc(7rem + 6vh + 6vw);
     min-height: fit-content;
     height: -moz-fit-content;
     height: -webkit-fit-content;
+    
 }
 
 .kontaktystrip {
@@ -321,17 +321,21 @@ br {
     top: 1.5vh;
 }
 
+
 .kontaktyaddyblock {
+    display: grid;
     position: relative;
     padding-top: calc(1rem + 2vh + 2vw);;
-    width: 70%;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
+    
+    grid-column-gap: 5%;
+    padding-left: 10vw;
+    grid-auto-flow: column;
+    
+    
 }
 
 .address {
-    position: relative;
+    position: initial;
     font-size: calc(0.4rem + 0.5vh + 0.5vw);
     color: black;
     white-space: initial;
@@ -346,14 +350,6 @@ br {
     font-size: 24%;
 }
 
-.kontaktytelblock {
-    position: relative;
-    top: -30%;
-    width: 70%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .tel {
     position: static;
@@ -406,7 +402,7 @@ br {
     white-space: initial;
     z-index: 1;
     left: 10%;
-    top: calc(-2rem + -6vh + -6vw);
+    top: calc(-8rem + -6vh + -6vw);
 }
 
 span {
@@ -418,7 +414,7 @@ span {
     background-color: rgb(247, 247, 247);
     width: 100%;
     float:right;
-    height: calc(10rem + 23vh + 23vw);
+    height: calc(8rem + 23vh + 23vw);
     min-height: fit-content;
     scroll-margin-top: 50px;
 }
@@ -433,7 +429,7 @@ span {
     right: 0;
     width: 60%;
 
-    height: calc(10rem + 15vh + 15vw + 10%);
+    height: calc(3rem + 15vh + 15vw + 10%);
     min-height: fit-content;;
     margin-left: auto;
     margin-right: auto;

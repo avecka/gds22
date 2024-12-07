@@ -293,8 +293,7 @@ br {
     background-color: rgb(252, 252, 252);
     width: 100%;
     float:right;
-    height: 200px;
-    height: calc(4rem + 6vh + 6vw);
+    height: calc(7rem + 6vh + 6vw);
     min-height: fit-content;
     height: -moz-fit-content;
     height: -webkit-fit-content;
@@ -321,12 +320,13 @@ br {
 }
 
 .kontaktyaddyblock {
+    display: grid;
     position: relative;
     padding-top: calc(1rem + 2vh + 2vw);;
-    width: 70%;
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
+    
+    grid-column-gap: 5%;
+    padding-left: 14vw;
+    grid-auto-flow: column;
 }
 
 .address {
@@ -345,17 +345,8 @@ br {
     font-size: 24%;
 }
 
-.kontaktytelblock {
-    position: relative;
-    top: -30%;
-    width: 70%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .tel {
-    position: static;
     font-size: calc(0.4rem + 0.5vh + 0.5vw);
     color: black;
     white-space: initial;
@@ -364,13 +355,11 @@ br {
 }
 
 .kontaktymailblock {
-    position: relative;
-    width: 70%;
-    text-align: right;
-    margin-left: auto;
-    margin-right: auto;
-    top: -44%;
+    position: fixed;
+    right: -500px;
 }
+
+
 
 .mail {
     position: relative;
@@ -378,6 +367,7 @@ br {
     color: black;
     white-space: initial;
     z-index: 1;
+
     
 }
 
